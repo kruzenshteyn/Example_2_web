@@ -1,0 +1,23 @@
+body, h1{
+  margin: 0;
+}
+
+body{
+  margin: 0;
+  background-color: white;
+  color:black;
+}
+
+.root{
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.header{
+  outline: red 1px dashed;
+  min-height: 200px;
+}
+
+.header__title{
+  text-align: center;
+}
