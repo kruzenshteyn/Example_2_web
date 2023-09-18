@@ -1,0 +1,57 @@
+.auth{
+  outline: red 1px dashed;
+}
+
+.auth__form{  
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  color: black;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.auth__title{
+  outline: red 1px dashed;
+  text-align: center;
+  margin: 0;
+}
+
+.auth__text{
+  text-align: center;
+}
+
+.auth__data{
+  display: flex;
+  flex-direction: column;
+  outline: red 1px dashed;
+  width: 80%;
+  margin: 20px auto 0px auto;
+}
+
+.auth__input{
+  border: none;
+  height: 20px;
+}
+
+.auth__button{  
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+  height: 30px;
+
+  margin: 30px auto 0 auto;
+  background-color: darkcyan;
+  color: aliceblue;
+}
+
+.auth__button:hover{
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.auth__button_pressed{
+  background-color: black;
+}

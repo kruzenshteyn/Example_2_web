@@ -1,11 +1,13 @@
+@import "/auth/auth.css";
+
 body, h1{
   margin: 0;
 }
 
 body{
   margin: 0;
-  background-color: white;
-  color:black;
+  background-color: black;
+  color:white;
 }
 
 .root{
@@ -20,4 +22,6 @@ body{
 
 .header__title{
   text-align: center;
+  margin-top: 30px;
+  
 }
